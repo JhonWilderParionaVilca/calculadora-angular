@@ -1,0 +1,21 @@
+<!-- operandos label -->
+<label for="operando1">Primer número</label>
+<input type="number" name="operando1" id="operando1" (input)='obtenerOperando1($event)' [defaultValue]=0 class="form-control mb-3">
+
+<label for="operando2">Segundo número</label>
+<input type="number" name="operando2" id="operando2" (input)='obtenerOperando2($event)' [defaultValue]=0 class="form-control mb-3">
+
+<!-- btn -->
+<div class="d-flex justify-content-around mb-4">
+  <button (click)='sumar()' class="btn btn-info">Sumar</button>
+  <button (click)='multiplicar()' class="btn btn-warning">Multiplicar</button>
+</div>
+
+<!-- resultado -->
+
+<section>
+  <h2>Resultado: </h2>
+  <p>
+    {{msg}} {{resultado}}
+  </p>
+</section>

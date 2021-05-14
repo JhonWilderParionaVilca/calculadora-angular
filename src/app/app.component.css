@@ -1,0 +1,8 @@
+.sombra-card {
+  box-shadow: 0 2.9px 3.9px -6px rgba(0, 0, 0, 0.031),
+    0 7px 9.4px -6px rgba(0, 0, 0, 0.044),
+    0 13.3px 17.7px -6px rgba(0, 0, 0, 0.055),
+    0 23.7px 31.5px -6px rgba(0, 0, 0, 0.066),
+    0 44.3px 58.9px -6px rgba(0, 0, 0, 0.079),
+    0 106px 141px -6px rgba(0, 0, 0, 0.11);
+}
